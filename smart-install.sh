@@ -9,7 +9,7 @@ COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Dilithium'
 COIN_PORT=8680
 RPC_PORT=8681
-LATEST_VERSION=1000000
+LATEST_VERSION=1000100
 
 NODEIP=$(curl -s4 api.ipify.org)
 
